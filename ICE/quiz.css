@@ -13,12 +13,13 @@ h1{
     font-size: 3em;
     text-align: center;
     background-color: blue;
+    
 
 }
 
 #image{
     margin: 50px;
-    background-color: gray;
+    background-color: lightgray;
     border: 2px;
     border-style: solid;
     border-color: black;
