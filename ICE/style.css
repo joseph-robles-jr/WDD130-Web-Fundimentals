@@ -1,0 +1,43 @@
+h1{
+    font-size: 2em;
+}
+
+#p1{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#p2{
+    font-size: 3em;
+    text-align: center;
+    background-color: blue;
+
+}
+
+#image{
+    margin: 50px;
+    background-color: gray;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    color: purple;
+
+}
+
+#ocean{
+    width: 350px;
+    padding: 15px;
+    float: right;
+   
+}
+#pic-h{
+    color: orange;
+}
+
+#pic-p{
+    clear: both;
+    
+}
