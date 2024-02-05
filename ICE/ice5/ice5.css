@@ -1,5 +1,5 @@
 main{
-    background-color: #737373;
+    background-color: blue;
     margin: 0;
 }
 
@@ -16,6 +16,7 @@ main{
     object-fit: fill;
     padding: 0;
     margin: 0;
+    display: block;
 }
 
 #images img{
@@ -28,4 +29,5 @@ main{
     border-radius: 50%;
     border-width: 15px;
     margin: 0 auto;
+    
 }
