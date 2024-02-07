@@ -1,3 +1,53 @@
 body{
     background-color: purple;
 }
+section{
+    padding: 30px;
+}
+
+#food{
+    background-color: darkkhaki;
+    /* selects column spread to display  */
+    /* grid-column: 2/4; */
+    grid-row: 1/3;
+}
+
+.favcolor{
+    background-color: yellowgreen;
+    color: bisque;
+    
+}
+
+.sauce{
+    background-color: brown;
+    font-weight: bold;
+    grid-row: 1
+}
+
+.sauce div{
+    background-color: chartreuse;
+
+    font-weight: 100;
+}
+main{
+    display:grid;
+
+    grid-template-columns: 1fr 1fr ;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer div{
+    grid-column: 1fr 1fr 1fr;
+    background-color: azure;
+    text-align: center;
+}
+
+footer p{
+    grid-column: 1/-1; 
+    background-color: orange;
+    text-align: center;
+}
