@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0, auto;
@@ -7,7 +9,9 @@ nav a{
     text-align: center;
     color: #FFFFF1;
     text-decoration: none;
+    padding: 35px;
 }
+
 nav a:hover{
     background-color:#ADD9F4;
     color: #396E94;
@@ -29,6 +33,9 @@ nav a:hover{
 main section{
     text-align: center;
 }
+main selection img{
+    box-sizing: border-box;
+}
 
 #background{
     height: 725px;
@@ -36,6 +43,13 @@ main section{
 
 body{
     background-color:#AABD8C;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
 }
 
 header{
@@ -46,6 +60,11 @@ header{
     background-color:#FFFFF1;
     color: #ADD9F4;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    
 }
 
 .book:hover, .join:hover{
@@ -57,19 +76,29 @@ header{
     background-color:#ADD9F4;
 }
 
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
+
+}
+
 .msg h2{
     background-color:#FFFFF1;
-    color:#AABD8C
+    color:#AABD8C;
+    font-family: Playfair, 'Times New Roman', Times, serif;
 }
 
 .msg p{
     background-color:#FFFFF1;
-    color:#AABD8C
+    color:#AABD8C;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color:#396E94;
     color: #FFFFF1;
+    padding: 25px 50px;
 }
 footer a{
     color: #fffff1;
@@ -88,6 +117,10 @@ footer p a:hover{
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 
 h4{
     color: #ADD9F4;
@@ -97,6 +130,26 @@ h4{
     width: 80px;
 }
 
+#logo_link{
+    padding-top: 5px;
+
+}
+
 .icon{
     width: 80px;
+    padding-top: 10px;
+}
+
+.home-title{
+    font-family: Playfair, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-top: 10px;
+
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin-top: 200px;
+}
+
+.card-img{
+    border: 10px solid black;
 }
