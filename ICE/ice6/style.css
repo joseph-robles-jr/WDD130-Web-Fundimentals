@@ -9,9 +9,9 @@ main{
 
 .ts{
     width: 100%;
-    /* text-align: right; */
+    text-align: center; 
     padding-top: 40%;
-    padding-left: 10%; 
+    /* padding-left: 10%;  */
     position: absolute;
     letter-spacing: .15em;
     font-size: 7em;
@@ -20,7 +20,7 @@ main{
 
     font-family: Georgia;
     
-    /* margin: 0 auto; */
+     /* margin: 0 15; */
 }   
 /* .ts2{
     padding-top: 40%;
