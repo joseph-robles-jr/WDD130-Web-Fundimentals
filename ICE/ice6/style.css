@@ -8,21 +8,20 @@ main{
 }
 
 .ts{
+    width: 100%;
+    text-align: center;
     padding-top: 40%;
     /* padding-left: 10%; */
     position: absolute;
     letter-spacing: .15em;
     font-size: 7em;
     z-index: 1;
-    text-align: right;
     bottom: 40%;
-    
-
     font-family: Georgia;
     
     /* margin: 0 auto; */
 }   
-.ts2{
+/* .ts2{
     padding-top: 40%;
     position: absolute;
     letter-spacing: .15em;
@@ -32,9 +31,8 @@ main{
     bottom: 40%;
     font-family: Georgia;
     padding-left: 7%;
-    /* margin: 0 auto; */
-}   
-
+    /* margin: 0 auto; 
+}    */
 .cherries{
     color: #9C0E11;
     font-size: 70px;
@@ -58,7 +56,9 @@ body{
 
 }
 .divgrid{
+    width: 100%;
     position: relative;
+    text-align: right;
 }
 .background{
     position: relative;
