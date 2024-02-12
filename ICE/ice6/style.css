@@ -17,6 +17,7 @@ main{
     font-size: 7em;
     z-index: 1;
     bottom: 40%;
+    text-align: center;
     font-family: Georgia;
     
     /* margin: 0 auto; */
