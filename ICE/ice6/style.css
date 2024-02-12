@@ -9,15 +9,15 @@ main{
 
 .ts{
     width: 100%;
-    text-align: center;
+    /* text-align: right; */
     padding-top: 40%;
-    /* padding-left: 10%; */
+    padding-left: 10%; 
     position: absolute;
     letter-spacing: .15em;
     font-size: 7em;
     z-index: 1;
     bottom: 40%;
-    text-align: center;
+
     font-family: Georgia;
     
     /* margin: 0 auto; */
