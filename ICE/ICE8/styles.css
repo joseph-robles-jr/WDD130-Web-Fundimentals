@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #CFCFCF;
+}
+section {
+    width: 40%;
+    border-radius: 4%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #AFAFAF;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.Title{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center; 
+    background-color: white;
+}
+.BlueStrip{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+    justify-items: center;
+    background-color: #001B36;
+    justify-items: center;
+}
+.plane-icon{
+    grid-column: 2;
+    grid-row: 2;
+}
+.depart_denver{
+    grid-column: 1;
+    grid-row: 1;
+    color:#1A344F;
+}
+.Denver{
+    grid-column: 1;
+    grid-row: 2;
+    color:white
+}
+.small_denver{
+    grid-column: 1;
+    grid-row: 3;
+    color:#1A344F;
+}
+.arrive_boston{
+    grid-column: 3;
+    grid-template-columns: 1;
+    color:#1A344F;
+}
+.Boston{
+    grid-column: 3;
+    grid-row: 2;
+    color:white;
+}
+.small_boston{
+    grid-column: 3;
+    grid-template-columns: 3;
+    color:#1A344F;
+}
+.Info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    background-color: #F1F1F1;
+}
+
+.Barcode{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    padding: 20px;
+    background-color: white;
+    
+}
+.thanks{
+    text-align: center;
+    background-color: white;
+}
+h6{
+    color: #001B36;   
+}
