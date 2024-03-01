@@ -1,0 +1,44 @@
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: white;
+
+}
+
+#logo{
+    /* Logo at the top of the page */
+    grid-column: 1/3;
+    grid-row: 1;
+    
+}
+nav{
+    grid-row: 1;
+    grid-column: 3/5;
+    display:grid;
+    grid-template-columns: 5;
+    grid-template-rows: 1;
+    color:#2660A4;
+    margin-top: 100px;
+    
+}
+#home{
+    grid-column: 2;
+    text-align: right;
+    color: #2660A4;
+}
+#articles{
+    grid-column: 3;
+    color:#2660A4;
+    text-align: center;
+
+}
+#contact-us{
+    grid-column: 4;
+    color:#2660A4;
+    text-align: left;
+}
+#home:hover, #articles:hover, #contact-us:hover{
+    color: black;
+
+}
