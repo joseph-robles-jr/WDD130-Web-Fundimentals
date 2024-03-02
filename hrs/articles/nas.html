@@ -20,20 +20,24 @@
 
 
     <section class="article">
-        <p>Hello, I am Joseph Robles. I love chasing down technical projects and learning something new from them. This site was designed to showcase my personal projects in such a way that everyone could learn something new. My interests tend to center around computing, basic DC electronics, and amateur radio. As such, most of my projects will center around these subjects.</p>
         
-        <div id="AllstarLink">
-            <h3>AllstarLink Node</h3>
-            <p>One of my favorite projects that I have completed so far is my Allstar node. Allstar is a Radio Over Internet Protocol program that allows radios to communicate over a network, A lot like making phone calls but between different radios. Building this node was a big project And I learned a lot</p>
-            <!-- <img src="images/" alt="Allstar Node"> -->
+        <div id="nas"">
+            <h3>Network Attatched Storage</h3>
+
+            <img src="../images/nas-outside.jpg" alt="The completed product">
+            <p>I have tons of computers and it is often difficult to keep track of what files are where and then you end up with tons of different versions of the same files and so much wasted space. I decided to Make a file server to simplify the distribution of my files.</p>
+
+           
+            <p>I had a Dell OptiPlex 9020 SFF kicking around that was just the right size for the space that I had available. I put 4 solid state drives into this machine. The first drive – a 245gb sata SSD – would become the boot drive for Rocky Linux 9. The remaining drives would be for file storage. I added 2 500gb crucial SSD’s and put them in a raid 1 array – esentialy they are identical copies of each other so that if one fails, the other will still have all the data. The final drive was a 128gb drive that I use to store files that I need fast access too but don’t necessarily want redundancy for.</p>
+
+            <p>For the processor, I went with an Intel Core i5 4570. I had this kicking around and it seemed to be a reasonable middle of the road choice for a box that would be mostly serving small files and not doing anything intense.</p>
+
+            <p>For ram, I added 20gb of 1600mhz ddr3 that I also had lying around. This was initially overkill, but since discovering docker and virtualization, it is a bit of a bottleneck on what I can do for the system.</p>
+
+            <img src="../images/nas-insides.jpg" alt="Insides of the NAS">
 
         </div>
 
-        <div id="nas">
-            <h3>Network Attatched Storage Server</h3>
-            <p>I also have made a Network Attached Storage (NAS) server for my home network. I took a used office PC, Some Hard Disk Drives, Linux, and more time than It should have taken  and made a functioning storage server to Hold all my Movies.</p>
-            <!-- <img src="images/" alt="Allstar Node"> -->
-        </div>
         
         <div id="contact_section"
         <h3>Contact me</h3>
