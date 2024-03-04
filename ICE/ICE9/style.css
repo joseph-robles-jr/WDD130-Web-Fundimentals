@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Namdhinggo:wght@400;500;600;700;800&family=Noto+Naskh+Arabic:wght@400..700&display=swap');
+
+body{
+    font-family: "Patua One", serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+    max-width: 70em;
+    padding-top: 10px;
+}
+p{
+
+}
+.middle {
+    width: 100%;
+    border-radius: 4%;
+    border-width: 3px;
+    overflow: hidden;
+    margin: 0 auto;
+    align-items: center;
+    color: #8B808B;
+    background-color: white;
+}
+.sides{
+    background-color: black;
+}
+.bridge{
+    width: 100%;
+    margin: 0 auto;
+}
+.weeks{
+    padding-top: 25px;
+    text-align: center;
+    margin: 0 auto;
+    color: #3F5B8B;
+    font-size: 15px;
+}
+.post_title{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    color: black;
+    font-size: 40px;
+}
+.post_content{
+    text-align: center;
+    margin: 0 auto ;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+sup {
+    vertical-align: super;
+    font-size: 10px;
+    text-align: left;
+}
+.bottom{
+    font-family: IBM_Plex_Serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #3F5B8B;
+    color: white;
+}
+.bottom h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+.bottom p{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.bottom_borders{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #8B808B;
+}
