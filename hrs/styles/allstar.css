@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto&display=swap');
+
+
+#content{
+    /* display:grid; */
+    width: 75%;
+    border-width: 3px;
+    margin: 0 auto;
+    align-items: center;    
+}
+
+#content img{
+    margin: 0 auto;
+    width: 70%;
+    justify-self: center;
+    align-self: center;
+}
+
+body{
+    background-color:#ADD9F4;
+    font-family: roboto;
+}
+
 header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -48,8 +71,9 @@ nav{
     display: gird;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    background-color:#ADD9F4;
+    
 }
+
 #background-on-radio{
     grid-column: 1;
 }
