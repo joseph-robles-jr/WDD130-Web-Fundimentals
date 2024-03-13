@@ -58,7 +58,7 @@ nav a:hover{
     justify-content: center;
 }
 
-main section{
+main .index section{
     text-align: center;
 }
 main selection img{
@@ -78,6 +78,8 @@ body{
 
 h2{
     margin: 0;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 header{
@@ -94,6 +96,7 @@ header{
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    justify-content: center;
     
 }
 
@@ -181,7 +184,7 @@ h4{
 
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
 
 }
 
@@ -236,7 +239,40 @@ main{
     transform: scale(1.1);
 }
 
+/*rivers page (page 2)*/
 
+.page2-grid{ 
+    display:grid;
+    width: 75%;
+    border-width: 3px;
+    margin: 0 auto;
+    align-items: center;
+    color: #8B808B;
+    background-color: #FFFFF1 ;
+}
+.subpage-title{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.subpage-title h2 {
+    grid-column: 2;
+    text-align: center;
+    padding: 50px
+
+}
+
+.subpage-title-image{
+    grid-column: 2;
+    grid-row: 2;
+    justify-content: center;
+}
+.article{
+    grid-column: 1;
+    grid-row: 2;
+    justify-content: center;
+    padding: 50px;
+}
 
 
 
