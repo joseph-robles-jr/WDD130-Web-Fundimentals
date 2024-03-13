@@ -64,6 +64,61 @@
       </tr>
     </table>
 
+    <h3>Content</h3>
+
+
+    <h3>Some Background on Radio</h3>
+        
+    <img src="images/allstar_node.jpg" alt="allstar node">
+
+    <p>In the world of amateur radio, there are 2 main kinds of radio signals – line-of-sight, and long-distance atmospheric propagation.</p>
+     
+     <p>When something is line of sight in the radio world, I essentially mean that the if you can see it with your eyes, you can get a radio signal to it. If you can not see it, you can not get a signal to it. Walkie talkies are a perfect example of line-of-sight communications. </p>
+     
+     <p>Long-distance atmospheric propagation (We will call this HF or High Frequency signals from now on) is just a fancy way of saying “signals that bounce off the atmosphere and back to earth, then they bounce off the earth to the atmosphere and back to earth repeatedly until then run out of energy. Have you ever thrown a rubber ball really hard at the floor and had it bounce off the floor to the ceiling and back again? What happens if you throw the ball too hard? It might break through the drywall on the ceiling and not bounce back. At the right frequencies, radio waves do the exact same thing. If the radio wave is too high of a frequency, it will just go through the atmosphere and not be able to bounce around the world. </p>
+     
+     <p>I am sure that you can think of several situations where these different types of signals might come in handy. My favorite part of the radio spectrum to play with is the HF spectrum. It allows you to talk to people all around the world. Unfortunately, the antennas that are used for HF radio are large and cumbersome. On the flip side, the antennas for line-of-sight frequencies are small and easy to move around.  If only you could have the benefits of HF signals in the size of a walkie talkie. This is a problem that I set out to solve for myself.</p>
+     </div>
+     
+     <div id="what_is_allstar">
+         <h3>What is Allstar?</h3>
+         <p>Allstar is a technology that uses a special version of Voice Over Ip to allow line-of-sight radios to use the internet to communicate with radio stations around the world. Using it is simple too. You just find a frequency that has a note on it, you send the DTMF number of the node you want to connect to. Then BINGO! You are connected to that other place through the node radio on your end. </p>
+
+         <p>The area that I am living in doesn’t have any Allstar nodes, and I know plenty of people around the USA that live near other nodes. After complaining about not having a node in my area, I decided to construct a simple Allstar node of my own. All you need is an amateur radio (I recommend the 440 or 140 MHz bands), an antenna, a sound card, a raspberry pi, an SD card with the AllstarLink software, and a stable internet connection. In theory, you put all these bits together and it just works. Unfortunately, my journey was a bit more complicated.</p>
+         <!-- <img src="images/" alt="Allstar Node"> -->
+
+     </div>
+
+     <div id="planing">
+         <h3>Planning</h3>
+         <p>You can buy premade Allstar nodes that just work but they start at about $200, and the good ones are closer to $500. A goal that I had with this project was to keep it as inexpensive as possible. This means buying as few things as possible for this project and using as much of what I had on hand as possible. I had a 144Mhz mobile FM transceiver (Kenwood TM-241a) lying around, as well as a raspberry pi 4b. At the time, these were the 2 biggest costs of the project, so I was already starting ahead. </p>
+
+         <p>I knew I needed a sound card to take the audio from the radio and the push to talk signals and pass them to the raspberry pi but I didn’t know where to look for one that would work. I went to YouTube and found out that it was common to modify a cheap $10 CM108 usb fob to work in this way. I also talked to a few people I knew who ran multiple nodes and they suggested that I do anything but use the CM108 trick. My friends pointed me to the RA-25 soundcard which had been designed for this exact purpose. It was a little expensive fully assembled but luckily you could get a discount if you bought it as a kit to assemble yourself. That is what I ended up doing.</p>
+
+         <p>I now needed a cable to connect the radio to the soundcard. I needed to interface with the microphone connection and convert it to a DB-9 connector for the soundcard. I cannibalized a VGA cable for this. Unfortunately, I needed an additional signal that the Mic connector didn’t have. I had to disassemble the radio and find a source for COS. COS is a high or low value that indicates whether or not the radio is hearing a signal, and this was necessary for my node to work correctly. Luckily after a few days of asking around and probing around, I was able to find a place to tap into for this and add it to the cable. </p>
+
+         <p>I connected everything up and then installed the software. It took a little bit to configure but I was able to figure It out. I can now connect to any Allstar node in the world with just a walkie talkie here in Rexburg.</p>
+         <!-- <img src="images/" alt="Allstar Node"> -->
+
+
+
+    <h4> NAS page</h4>
+
+    <h3>Network Attatched Storage</h3>
+
+            <img src="images/nas-outside.jpg" alt="The completed product">
+            <p>I have tons of computers and it is often difficult to keep track of what files are where and then you end up with tons of different versions of the same files and so much wasted space. I decided to Make a file server to simplify the distribution of my files.</p>
+
+           
+            <p>I had a Dell OptiPlex 9020 SFF kicking around that was just the right size for the space that I had available. I put 4 solid state drives into this machine. The first drive – a 245gb sata SSD – would become the boot drive for Rocky Linux 9. The remaining drives would be for file storage. I added 2 500gb crucial SSD’s and put them in a raid 1 array – esentialy they are identical copies of each other so that if one fails, the other will still have all the data. The final drive was a 128gb drive that I use to store files that I need fast access too but don’t necessarily want redundancy for.</p>
+
+            <p>For the processor, I went with an Intel Core i5 4570. I had this kicking around and it seemed to be a reasonable middle of the road choice for a box that would be mostly serving small files and not doing anything intense.</p>
+
+            <p>For ram, I added 20gb of 1600mhz ddr3 that I also had lying around. This was initially overkill, but since discovering docker and virtualization, it is a bit of a bottleneck on what I can do for the system.</p>
+
+            <img src="images/nas-insides.jpg" alt="Insides of the NAS">
+
+        </div>
     <!-- ------------------------Steps 10-12------------------------------ -->
 
     <h3>Typography</h3>
@@ -117,7 +172,9 @@
 
     <img src="https://byui-wdd.github.io/wdd130/rafting_images/wireframe_home.png" alt="home page wireframe" />
 
-    <h3>[Page 2]</h3>
+    <h3>Subpages</h3>
+
+    <img src="images/page2 wireframe.jpg" alt="Sub page wireframes">
 
     <!-- <img src="#" alt="page 2 wireframe"> -->
   </main>
