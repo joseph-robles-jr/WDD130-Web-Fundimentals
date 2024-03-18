@@ -86,6 +86,7 @@ body img{
 }
 
 footer{
+    width: auto;
     display: flex;
     background-color: #808F87;
     padding: 25px 50px;
