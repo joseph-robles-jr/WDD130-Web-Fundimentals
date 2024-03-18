@@ -42,12 +42,13 @@
     /* height: auto; */
 }
 .foot{
-    grid-column: 1/4;
+    grid-column: 1/5;
     grid-row:3 ;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    justify-items: center;
 }
 body{
-    background: pink;
+    background: lightgray;
 }
