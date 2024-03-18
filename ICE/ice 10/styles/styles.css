@@ -1,0 +1,55 @@
+.page{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    background:white;
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr .25fr;
+    grid-template-rows: 80px 1fr 50px;
+}
+.profile-picture{
+    grid-column: 1;
+    grid-row: 1;
+    height:60px;
+    border: 10px;
+    border-style: radius;
+    border-radius: 50px;
+    margin: none;
+    padding:none;
+    justify-content: center;
+}
+.hotdog{
+    grid-column: 5;
+    grid-row: 1;
+    
+}
+.UserName{
+    grid-column: 2;
+    grid-row: 1;
+    text-align: left;
+}
+
+.time-since-post{
+    grid-column: 4;
+    grid-row: 1;
+}
+.main-img{
+    grid-column: 1/5;
+    grid-row:2;
+    width:100%;
+    /* height: auto; */
+}
+.foot{
+    grid-column: 1/4;
+    grid-row:3 ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+body{
+    background: pink;
+}
